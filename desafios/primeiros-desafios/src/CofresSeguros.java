@@ -44,7 +44,7 @@ public class CofresSeguros {
         String tipoCofre = scanner.nextLine();
         scanner.close();
 
-        // TODO: Implemente a condição necessário para a verificação dos cofres seguros:
+        // DONE: Implemente a condição necessário para a verificação dos cofres seguros:
         if (tipoCofre.equalsIgnoreCase("digital")) {
             int senha = scanner.nextInt();
             int confirmacaoSenha = scanner.nextInt();

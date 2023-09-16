@@ -11,11 +11,11 @@ public class AbrindoContas {
         double saldo = scanner.nextDouble();
         scanner.close();
 
-        // TODO: Criar uma instância de "ContaBancaria" com os valores de Entrada.
+        // DONE: Criar uma instância de "ContaBancaria" com os valores de Entrada.
         ContaBancaria minhaConta = new ContaBancaria(numeroConta, nomeTitular, saldo);
 
         System.out.println("Informacoes:");
-        // TODO: Imprimir as informações da conta usando o objeto criado no TODO acima.
+        // DONE: Imprimir as informações da conta usando o objeto criado acima.
         System.out.println("Conta: " + minhaConta.numero);
         System.out.println("Titular: " + minhaConta.titular);
         System.out.println("Saldo: R$ " + minhaConta.saldo);
